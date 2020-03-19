@@ -6,6 +6,6 @@ def nyc_pigeon_organizer(data) binding.pry
    value.each do |new_value, names|
      names.each do |name|
        if !pigeons[name, key]
-         pigeons[name, key]
+         pigeons[name, key] = []
 
 end
