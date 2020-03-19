@@ -7,6 +7,7 @@ def nyc_pigeon_organizer(data) binding.pry
      names.each do |name|
     end 
     if !pigeons[name]
+      pigeons[name] = {}
        if !pigeons[name, key]
          pigeons[name, key] = []
 
