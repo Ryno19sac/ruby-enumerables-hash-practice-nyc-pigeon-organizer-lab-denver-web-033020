@@ -1,3 +1,7 @@
-def nyc_pigeon_organizer(data)
-  # write your code here!
+require 'pry'
+def nyc_pigeon_organizer(data) binding.pry
+ pigeons = {}
+ 
+ data.each do |
+
 end
